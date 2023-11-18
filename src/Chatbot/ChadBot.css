@@ -1,0 +1,109 @@
+/* Styles for the circle button */
+.circle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.circle-icon {
+  width: 110px; /* Adjusted size for the icon */
+  height: 110px; /* Adjusted size for the icon */
+  object-fit: cover; /* Use 'cover' for a centered, fully covered image */
+  border-radius: 50%; /* Make the icon round */
+}
+
+
+/* Styles for the chatbox */
+.chatbox {
+  position: fixed;
+  bottom: 150px;
+  right: 10px;
+  width: 300px;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  z-index: 999;
+}
+
+/* Styles for the chatbox header */
+.chatbox-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.chatbox-header h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.close-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+
+.close-button:hover {
+  color: #ff6b6b;
+}
+
+/* Styles for the chatbox content */
+.chatbox-content {
+  padding: 10px;
+  color: white;
+}
+
+.chatbox p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Styles for the chatbox input area */
+.chatbox-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+textarea {
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: blanchedalmond;
+  resize: none;
+  font-size: 14px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
